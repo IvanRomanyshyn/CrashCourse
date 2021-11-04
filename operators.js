@@ -2,9 +2,9 @@
 work with Git and operators
 First task is comment*/
 // Output of the result
-let a = 5;
-let b ='b';
-console.log("Variable",a ," is number" ,"Variable" , b,"is string");
+const numb1 = 5;
+const str1 ='b';
+console.log("Variable",numb1 ," is number" ,"Variable" ,str1 ,"is string");
 
 //Task with operators
 let x= 7;
@@ -47,18 +47,18 @@ console.log("When we use this operatirs this mean we change x " ,x/=4,"And we ge
 console.log("When we use this operatirs this mean we change x " ,x**=y,"And we get x=3^3> x=27");
 // use x=*y in previos step we have x=27
 console.log("When we use this operatirs this mean we change x " ,x%=4,"And we get x=27%4> x=3");
-let num1=434;
-let num2=343;
-let num3 =434;
-let text1="Toyota";
-let text2="BMW"
+const num1=434;
+const num2=343;
+const num3 =434;
+const text1="Toyota";
+const text2="BMW"
 let bol1=true;
 if (num1===num2){
     console.log('number 2 = number 3', bol1)
 }else if (num1===num3){
     console.log('number 1 = number 3',bol1)
-}else if (num1===num3){
-    console.log('number 1 = number 3')
+}else if (num1===num2){
+    console.log('number 1 = number 2')
 }
 if(num1!=num2){
     console.log("number 1 is not equal number 2")
@@ -70,7 +70,7 @@ if(num1 !==text1){
 }else{
     console.log('type and value is right')
 }
-let object1="";
+let object1="Bananas";
 switch(object1){
     case "Apples":
         console.log("Apples cost 12$")
@@ -82,9 +82,16 @@ switch(object1){
         console.log("Waterlemon  cost 10$")
         break;
     case "cheri":
-        console.log("cheri ples cost 3$")
+        console.log("cheri  cost 3$")
         break;
     default:{
         console.log("Fruits is exsist")
     }
 }
+//Знайдемо площу кругу
+let S;
+const R = 5;
+S=Math.PI*R**2
+console.log(S);
+
+
