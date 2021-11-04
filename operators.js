@@ -52,11 +52,11 @@ let num2=343;
 let num3 =434;
 let text1="Toyota";
 let text2="BMW"
-
+let bol1=true;
 if (num1===num2){
-    console.log('number 2 = number 3')
+    console.log('number 2 = number 3', bol1)
 }else if (num1===num3){
-    console.log('number 1 = number 3')
+    console.log('number 1 = number 3',bol1)
 }else if (num1===num3){
     console.log('number 1 = number 3')
 }
